@@ -26,19 +26,20 @@ import { Button } from "./ui/button";
 export default function Component() {
     return (
       <div className="bg-[#FFD014] w-full                      py-72  flex items-center justify-center">
-        <div className="text-center mb-12 space-y-4">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-            Get Your AI MVP
+        <div className="text-center mb-12 space-y-8 flex items-center flex-col">
+          <h1 className="text-5xl font-bold tracking-tighter md:text-8xl font-sans">
+            Personal - E-commerce Assistant
           </h1>
-          <h2 className="text-5xl font-bold tracking-tighter md:text-7xl xl:text-8xl/none uppercase">
-            Ready Just in 4 Weeks
-          </h2>
-          <p className="text-center max-w-md mb-8 font-mono text-center">
-        With a simple prompt, Musho gets your design 80% of the way, so you
-        have time to obsess over the final little details.
+         
+          <p className="max-w-3xl mb-8 font-mono text-center text-lg font-medium">
+          Discover the Future of Shopping with Seamless Voice, Text, and Image Search. Personalized, Inclusive, and Built for Every User.
+
+
       </p>
-      <Button className="bg-black text-white hover:bg-black/90 font-mono text-sm py-6 px-8">
-        🚀 Get Musho Plugin
+      <Button className="bg-black text-white hover:bg-black/90 font-mono text-lg py-8 px-8 rounded-sm font-bold">
+        🚀 Get Started Today
+
+
       </Button>
         </div>
         </div>
